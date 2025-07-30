@@ -21,7 +21,7 @@ public class RockPaperScissors {
     private  Random random;
 
     public RockPaperScissors() {
-        random = new Random();
+        random = new Random(System.nanoTime());
     }
 
     public String playerRockPaperScissors(String playerChoice) {
