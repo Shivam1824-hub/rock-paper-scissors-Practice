@@ -38,5 +38,3 @@ public class DemoApplication {
 		sc.close();
 	}
 }
-
-
